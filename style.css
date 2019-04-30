@@ -5,18 +5,45 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nobile', 'sans-serif';
     color: whitesmoke;
     padding: 20px;
-  
 }
 
 .header{
     height: 90vh;
-    background-image: url(../HTMLandCSS_one/images/JustinMaller-blackAbstract.jpg);
+    background-image: linear-gradient(to right bottom, rgba(248, 39, 11, 0.082),rgba(32, 163, 52, 0.445)), url(../HTMLandCSS_one/images/JustinMaller-blackAbstract.jpg);
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+
+/*text in centre;*/
+.text-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+#main-title{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: block;
     
 }
+.main-heading{
+    font-size:80px;
+    display: block;
+}
+
+.sub-heading{
+    letter-spacing: 30px;
+}
+
+
+
 
 /*clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);*/
